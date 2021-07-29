@@ -1,3 +1,4 @@
+#！D:\Program Files\Git\Git\bin\bash
 echo "Start submitting code to the local repository"
 echo "The current directory is：%cd%"
 git add *
@@ -11,7 +12,7 @@ git commit -m "%now% %message%"
 echo;
  
 echo "Commit the changes to the remote git server"
-git push
+git push origin master
 echo;
  
 echo "Batch execution complete!"
